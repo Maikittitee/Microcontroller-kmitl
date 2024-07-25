@@ -1,0 +1,224 @@
+!SESSION 2024-07-16 14:11:57.102 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_TH
+Framework arguments:  -keyring /Users/maikittitee/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/maikittitee/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-07-16 14:12:26.998
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-16 14:12:27.001
+!MESSAGE Log4j2 initialized with config file /Users/maikittitee/STM32CubeIDE/MAD_Lab/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-16 14:12:36.140
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.urischeme 4 0 2024-07-16 14:12:39.225
+!MESSAGE org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+!STACK 0
+java.lang.IllegalArgumentException: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:221)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.<init>(PlistFileWriter.java:69)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.getPlistFileWriter(RegistrationMacOsX.java:122)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:139)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.eclipse.core.internal.runtime.XmlProcessorFactory.parseWithErrorOnDOCTYPE(XmlProcessorFactory.java:246)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:219)
+	... 6 more
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-16 14:12:44.980
+!MESSAGE ProjectImporter: already registered
+!SESSION 2024-07-16 14:15:46.057 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_TH
+Framework arguments:  -keyring /Users/maikittitee/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/maikittitee/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-16 14:15:58.080
+!MESSAGE Log4j2 initialized with config file /Users/maikittitee/STM32CubeIDE/MAD_Lab/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-16 14:16:06.240
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.urischeme 4 0 2024-07-16 14:16:09.493
+!MESSAGE org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+!STACK 0
+java.lang.IllegalArgumentException: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:221)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.<init>(PlistFileWriter.java:69)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.getPlistFileWriter(RegistrationMacOsX.java:122)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:139)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.eclipse.core.internal.runtime.XmlProcessorFactory.parseWithErrorOnDOCTYPE(XmlProcessorFactory.java:246)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:219)
+	... 6 more
+!SESSION 2024-07-16 14:45:18.486 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_TH
+Framework arguments:  -keyring /Users/maikittitee/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/maikittitee/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-16 14:45:39.048
+!MESSAGE Log4j2 initialized with config file /Users/maikittitee/STM32CubeIDE/MAD_Lab/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-16 14:45:45.791
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.urischeme 4 0 2024-07-16 14:45:50.539
+!MESSAGE org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+!STACK 0
+java.lang.IllegalArgumentException: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:221)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.<init>(PlistFileWriter.java:69)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.getPlistFileWriter(RegistrationMacOsX.java:122)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:139)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.eclipse.core.internal.runtime.XmlProcessorFactory.parseWithErrorOnDOCTYPE(XmlProcessorFactory.java:246)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:219)
+	... 6 more
+!SESSION 2024-07-18 09:59:35.210 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_TH
+Framework arguments:  -keyring /Users/maikittitee/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/maikittitee/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-18 09:59:45.681
+!MESSAGE Log4j2 initialized with config file /Users/maikittitee/STM32CubeIDE/MAD_Lab/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-18 09:59:55.565
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.urischeme 4 0 2024-07-18 09:59:57.903
+!MESSAGE org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+!STACK 0
+java.lang.IllegalArgumentException: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:221)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.<init>(PlistFileWriter.java:69)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.getPlistFileWriter(RegistrationMacOsX.java:122)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:139)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.eclipse.core.internal.runtime.XmlProcessorFactory.parseWithErrorOnDOCTYPE(XmlProcessorFactory.java:246)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:219)
+	... 6 more
+!SESSION 2024-07-18 10:04:50.665 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_TH
+Framework arguments:  -keyring /Users/maikittitee/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/maikittitee/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-07-18 10:05:00.953
+!MESSAGE Log4j2 initialized with config file /Users/maikittitee/STM32CubeIDE/MAD_Lab/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-07-18 10:05:10.049
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.urischeme 4 0 2024-07-18 10:05:13.018
+!MESSAGE org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+!STACK 0
+java.lang.IllegalArgumentException: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:221)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.<init>(PlistFileWriter.java:69)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.getPlistFileWriter(RegistrationMacOsX.java:122)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:139)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.eclipse.core.internal.runtime.XmlProcessorFactory.parseWithErrorOnDOCTYPE(XmlProcessorFactory.java:246)
+	at org.eclipse.urischeme.internal.registration.PlistFileWriter.getDom(PlistFileWriter.java:219)
+	... 6 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-07-18 12:19:01.342
+!MESSAGE Indexed 'Lab01' (20 sources, 82 headers) in 6.76 sec: 5,667 declarations; 31,684 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0054%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:01:43.308
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:02:25.496
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:11:35.992
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:11:56.122
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:18:37.933
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:41:40.416
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:42:15.755
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:42:50.327
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:43:40.781
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2024-07-18 13:47:14.855
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:48:09.478
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:49:59.937
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:50:53.625
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:56:50.864
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2024-07-18 13:56:56.191
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
